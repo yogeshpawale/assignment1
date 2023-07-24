@@ -6,5 +6,6 @@ public class EncapsulationTest {
 		Encapsulation1 obj = new Encapsulation1();
 		obj.setSalary(-5000);
 		System.out.println("salary :" +obj.getSalary());
+		System.out.println("updated");
 	}
 }
