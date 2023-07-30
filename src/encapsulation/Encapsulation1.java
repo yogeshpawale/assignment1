@@ -9,11 +9,11 @@ public class Encapsulation1 {
 	}
 
 	public void setSalary(int sal) {
-		if(sal>0) {
-			salary = sal;
+		if(sal<50000) {  //changed by vikas.
+			salary = sal;   // dont want user to put salary more than 50000
 			
 		} else {
-			salary = 0;
+			salary = 0; //if he tries to do so, salary will become 0
 		}
 	}
 	
